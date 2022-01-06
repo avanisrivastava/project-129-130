@@ -1,0 +1,24 @@
+.heading{
+    font-size: 23px;
+    width:100%;
+    margin: 0px;
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+}
+
+canvas{
+    animation-name:example;
+    animation-duration: 2s;
+    animation-iteration-count:infinite ;
+    }
+    @keyframes example{
+        from{box-shadow: 1px 1px 38px rgb(182, 89, 206);}
+        to{box-shadow: 1px 1px 38px rgb(176, 240, 116);}
+    }
+
+body{
+    background-size: cover;
+}
